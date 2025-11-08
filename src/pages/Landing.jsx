@@ -68,17 +68,17 @@ export default function Landing() {
 
 
 
-      {/* Testimonials Section */}
+       {/* Testimonials Section */}
       <section className="testimonials" id="testimonials">
         <h2>What Our Users Say</h2>
         <div className="testimonial-cards">
           <div className="card">
             <p>"FinSeg transformed our customer engagement strategy!"</p>
-            <h4>- Jane Doe, Marketing Head</h4>
+            <h4>- Sinjini Kevat, Marketing Head</h4>
           </div>
           <div className="card">
             <p>"We saw a 30% increase in cross-sales within 3 months."</p>
-            <h4>- John Smith, Product Manager</h4>
+            <h4>- Neeta Kahar, Product Manager</h4>
           </div>
         </div>
       </section>
