@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Pricing.css';
+import { Link } from "react-router-dom";
 
 export default function Pricing() {
   return (
@@ -20,7 +21,7 @@ export default function Pricing() {
             <li>Basic Analytics</li>
             <li>Email Support</li>
           </ul>
-          <button className="cta-button">Get Started</button>
+          <Link className="cta-button" to="/register">Get Started</Link>
         </div>
 
         <div className="pricing-card popular">
@@ -35,7 +36,7 @@ export default function Pricing() {
             <li>Priority Support</li>
             <li>Real-time Dashboard</li>
           </ul>
-          <button className="cta-button">Get Started</button>
+          <Link className="cta-button" to="/register">Get Started</Link>
         </div>
 
         <div className="pricing-card">
@@ -50,7 +51,7 @@ export default function Pricing() {
             <li>AI-driven Insights</li>
             <li>Unlimited Users</li>
           </ul>
-          <button className="cta-button">Contact Sales</button>
+          <Link className="cta-button" to="/register">Get Started</Link>
         </div>
       </section>
     </div>
